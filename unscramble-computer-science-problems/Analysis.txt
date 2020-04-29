@@ -1,0 +1,108 @@
+#############################
+
+Big O Analysis for P0
+
+#############################
+
+We're going to try  to approximate the Big O for each task that we performed as part of Project P0.
+
+For Opening Files, we understand from the first reference, that the Big O is O(1) so for each of our tasks O(1) + O(1) is added for the two files.
+
+################
+
+Task0.py
+
+################
+
+Opening Files: O(1) + O(1) 
+Indexing Elements 1: (O(1) * O(1)) + (O(1) * O(1)) + (O(1) * O(1))
+Indexing Elements 2: (O(1) * O(1)) + (O(1) * O(1)) + (O(1) * O(1) + (O(1) * O(1))
+
+Complexity here is Constant Time or O(1). It will always take the same time.
+
+################
+
+Task1.py
+
+################
+
+Opening Files: O(1) + O(1)
+For Loop: O(n)
+List Append: O(1) + O(1)
+List to Set: O(n)
+Length: O(1)
+
+Complexity here is of the order of O(n)
+
+################
+
+Task2.py
+
+################
+
+Opening Files: O(1) + O(1)
+For Loop: O(n)
+Counter Append 1: O(1) for n-items
+Counter Append 2: O(1) for n-items
+Add Counters = O(1)
+Max Value = O(n) since it iterates over the Dictionary then returns the key.
+Print and Key Lookup: O(1) + O(n) = O(n)
+
+Complexity here is of the order of O(n)
+
+################
+
+Task3.py
+
+################
+
+Opening Files: O(1) + O(1)
+
+For Loop 1: O(n)
+If-Else: O(1) + O(1)
+If-ElseIf-Else: O(1) + O(1) + O(1) + O(1)
+List Sort: O(nlogn)
+For Loop 2: O(n)
+
+For Loop 3: O(n)
+If Condition: O(1)
+Adding Value: O(1)
+Ratio Calculation: O(1) + O(1)
+Print: O(1)
+
+Complexity here is of the order of O(nlogn)
+
+################
+
+Task4.py
+
+################
+
+Opening Files: O(1) + O(1)
+
+For Loop 1: O(n)
+List Comprehension 1: O(n)
+For Loop 2: O(n)
+List to Set: O(n)
+List Comprehension 2: O(n)
+List Sort: O(nlogn)
+For Loop 3: O(n)
+
+Complexity here is of the order of O(nlogn)
+
+################
+
+Note: I hope this is accurate and as expected. Complexities are rather confusing.
+
+#############################
+
+References
+
+#############################
+
+1. https://stackoverflow.com/questions/57467837/what-is-time-complexity-of-python3s-open-function
+2. https://wiki.python.org/moin/TimeComplexity
+3. https://stackoverflow.com/questions/34642155/what-is-time-complexity-of-a-list-to-set-conversion/34642209
+4. https://stackoverflow.com/questions/43485195/python-collections-counter-efficiency
+5. https://stackoverflow.com/questions/4378455/what-is-the-complexity-of-regular-expression
+6. https://stackoverflow.com/questions/28393210/how-do-i-check-the-time-complexity-of-a-comprehension
