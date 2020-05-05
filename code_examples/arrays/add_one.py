@@ -1,3 +1,9 @@
+'''
+You are given a non-negative number in the form of list elements.
+For example, the number 123 would be provided as arr = [1, 2, 3]. 
+Add one to the number and return the output in the form of a new list.
+'''
+
 def add_one(arr):
     """
     :param: arr - list of digits representing some number x
